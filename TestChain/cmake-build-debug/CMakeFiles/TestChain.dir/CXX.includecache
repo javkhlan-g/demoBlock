@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/javkhlan.g.CKBANK/CLionProjects/TestChain/Block.cpp
+Block.h
+C:/Users/javkhlan.g.CKBANK/CLionProjects/TestChain/Block.h
+sha256.h
+C:/Users/javkhlan.g.CKBANK/CLionProjects/TestChain/sha256.h
+time.h
+-
+
+C:/Users/javkhlan.g.CKBANK/CLionProjects/TestChain/Block.h
+cstdint
+-
+iostream
+-
+sstream
+-
+
+C:/Users/javkhlan.g.CKBANK/CLionProjects/TestChain/sha256.h
+string
+-
+
