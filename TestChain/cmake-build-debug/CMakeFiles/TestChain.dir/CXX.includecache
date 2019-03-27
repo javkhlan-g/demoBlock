@@ -6,15 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/javkhlan.g.CKBANK/CLionProjects/TestChain/Block.cpp
-Block.h
-C:/Users/javkhlan.g.CKBANK/CLionProjects/TestChain/Block.h
-sha256.h
-C:/Users/javkhlan.g.CKBANK/CLionProjects/TestChain/sha256.h
-time.h
--
-
-C:/Users/javkhlan.g.CKBANK/CLionProjects/TestChain/Block.h
+/home/jack/CLionProjects/demoBlock/TestChain/Block.h
 cstdint
 -
 iostream
@@ -22,7 +14,15 @@ iostream
 sstream
 -
 
-C:/Users/javkhlan.g.CKBANK/CLionProjects/TestChain/sha256.h
-string
+/home/jack/CLionProjects/demoBlock/TestChain/Blockchain.cpp
+Blockchain.h
+/home/jack/CLionProjects/demoBlock/TestChain/Blockchain.h
+
+/home/jack/CLionProjects/demoBlock/TestChain/Blockchain.h
+cstdint
 -
+vector
+-
+Block.h
+/home/jack/CLionProjects/demoBlock/TestChain/Block.h
 

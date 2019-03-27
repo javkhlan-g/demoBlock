@@ -1,12 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/TestChain.dir/main.cpp.obj"
-  "CMakeFiles/TestChain.dir/sha256.cpp.obj"
-  "CMakeFiles/TestChain.dir/Block.cpp.obj"
-  "CMakeFiles/TestChain.dir/Blockchain.cpp.obj"
+  "CMakeFiles/TestChain.dir/main.cpp.o"
+  "CMakeFiles/TestChain.dir/sha256.cpp.o"
+  "CMakeFiles/TestChain.dir/Block.cpp.o"
+  "CMakeFiles/TestChain.dir/Blockchain.cpp.o"
   "TestChain.pdb"
-  "TestChain.exe"
-  "TestChain.exe.manifest"
-  "TestChain.lib"
+  "TestChain"
 )
 
 # Per-language clean rules from dependency scanning.

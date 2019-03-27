@@ -10,7 +10,7 @@ Blockchain::Blockchain() {
 }
 
 void Blockchain::AddBlock(Block bNew) {
-    bNew.sPrevHash = _GetLastBlock().sHash();
+    bNew.sPrevHash = _GetLastBlock().sHash;
     bNew.MineBlock(_nDifficulty);
     _vChain.push_back(bNew);
 }

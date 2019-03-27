@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" C:\Users\javkhlan.g.CKBANK\CLionProjects\TestChain
+/home/jack/Downloads/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/jack/CLionProjects/demoBlock/TestChain
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/javkhlan.g.CKBANK/CLionProjects/TestChain/cmake-build-debug
+-- Build files have been written to: /home/jack/CLionProjects/demoBlock/TestChain/cmake-build-debug

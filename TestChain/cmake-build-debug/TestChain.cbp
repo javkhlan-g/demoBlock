@@ -4,102 +4,108 @@
 	<Project>
 		<Option title="TestChain"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="msvc8"/>
+		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/javkhlan.g.CKBANK/CLionProjects/TestChain/cmake-build-debug"/>
+				<Option working_dir="/home/jack/CLionProjects/demoBlock/TestChain/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\javkhlan.g.CKBANK\CLionProjects\TestChain\cmake-build-debug\Makefile VERBOSE=1 all"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\javkhlan.g.CKBANK\CLionProjects\TestChain\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\javkhlan.g.CKBANK\CLionProjects\TestChain\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\javkhlan.g.CKBANK\CLionProjects\TestChain\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="TestChain">
-				<Option output="C:/Users/javkhlan.g.CKBANK/CLionProjects/TestChain/cmake-build-debug/TestChain.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/javkhlan.g.CKBANK/CLionProjects/TestChain/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\ATLMFC\INCLUDE"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\javkhlan.g.CKBANK\CLionProjects\TestChain\cmake-build-debug\Makefile VERBOSE=1 TestChain"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\javkhlan.g.CKBANK\CLionProjects\TestChain\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\javkhlan.g.CKBANK\CLionProjects\TestChain\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\javkhlan.g.CKBANK\CLionProjects\TestChain\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="TestChain/fast">
-				<Option output="C:/Users/javkhlan.g.CKBANK/CLionProjects/TestChain/cmake-build-debug/TestChain.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/javkhlan.g.CKBANK/CLionProjects/TestChain/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\ATLMFC\INCLUDE"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\javkhlan.g.CKBANK\CLionProjects\TestChain\cmake-build-debug\Makefile VERBOSE=1 TestChain/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\javkhlan.g.CKBANK\CLionProjects\TestChain\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\javkhlan.g.CKBANK\CLionProjects\TestChain\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\javkhlan.g.CKBANK\CLionProjects\TestChain\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="C:/Users/javkhlan.g.CKBANK/CLionProjects/TestChain/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\javkhlan.g.CKBANK\CLionProjects\TestChain\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\javkhlan.g.CKBANK\CLionProjects\TestChain\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\javkhlan.g.CKBANK\CLionProjects\TestChain\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\javkhlan.g.CKBANK\CLionProjects\TestChain\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/demoBlock/TestChain/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/demoBlock/TestChain/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/demoBlock/TestChain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/demoBlock/TestChain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/javkhlan.g.CKBANK/CLionProjects/TestChain/cmake-build-debug"/>
+				<Option working_dir="/home/jack/CLionProjects/demoBlock/TestChain/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\javkhlan.g.CKBANK\CLionProjects\TestChain\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\javkhlan.g.CKBANK\CLionProjects\TestChain\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\javkhlan.g.CKBANK\CLionProjects\TestChain\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\javkhlan.g.CKBANK\CLionProjects\TestChain\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/demoBlock/TestChain/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/demoBlock/TestChain/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/demoBlock/TestChain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/demoBlock/TestChain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TestChain">
+				<Option output="/home/jack/CLionProjects/demoBlock/TestChain/cmake-build-debug/TestChain" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/demoBlock/TestChain/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/demoBlock/TestChain/cmake-build-debug/Makefile&quot;  VERBOSE=1 TestChain"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/demoBlock/TestChain/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/demoBlock/TestChain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/demoBlock/TestChain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TestChain/fast">
+				<Option output="/home/jack/CLionProjects/demoBlock/TestChain/cmake-build-debug/TestChain" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/demoBlock/TestChain/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/demoBlock/TestChain/cmake-build-debug/Makefile&quot;  VERBOSE=1 TestChain/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/demoBlock/TestChain/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/demoBlock/TestChain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/demoBlock/TestChain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/jack/CLionProjects/demoBlock/TestChain/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/demoBlock/TestChain/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/demoBlock/TestChain/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/demoBlock/TestChain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jack/CLionProjects/demoBlock/TestChain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/javkhlan.g.CKBANK/CLionProjects/TestChain/Block.cpp">
+		<Unit filename="/home/jack/CLionProjects/demoBlock/TestChain/Block.cpp">
 			<Option target="TestChain"/>
 		</Unit>
-		<Unit filename="C:/Users/javkhlan.g.CKBANK/CLionProjects/TestChain/Block.h">
+		<Unit filename="/home/jack/CLionProjects/demoBlock/TestChain/Block.h">
 			<Option target="TestChain"/>
 		</Unit>
-		<Unit filename="C:/Users/javkhlan.g.CKBANK/CLionProjects/TestChain/Blockchain.cpp">
+		<Unit filename="/home/jack/CLionProjects/demoBlock/TestChain/Blockchain.cpp">
 			<Option target="TestChain"/>
 		</Unit>
-		<Unit filename="C:/Users/javkhlan.g.CKBANK/CLionProjects/TestChain/Blockchain.h">
+		<Unit filename="/home/jack/CLionProjects/demoBlock/TestChain/Blockchain.h">
 			<Option target="TestChain"/>
 		</Unit>
-		<Unit filename="C:/Users/javkhlan.g.CKBANK/CLionProjects/TestChain/main.cpp">
+		<Unit filename="/home/jack/CLionProjects/demoBlock/TestChain/main.cpp">
 			<Option target="TestChain"/>
 		</Unit>
-		<Unit filename="C:/Users/javkhlan.g.CKBANK/CLionProjects/TestChain/sha256.cpp">
+		<Unit filename="/home/jack/CLionProjects/demoBlock/TestChain/sha256.cpp">
 			<Option target="TestChain"/>
 		</Unit>
-		<Unit filename="C:/Users/javkhlan.g.CKBANK/CLionProjects/TestChain/sha256.h">
+		<Unit filename="/home/jack/CLionProjects/demoBlock/TestChain/sha256.h">
 			<Option target="TestChain"/>
 		</Unit>
-		<Unit filename="C:/Users/javkhlan.g.CKBANK/CLionProjects/TestChain/CMakeLists.txt">
+		<Unit filename="/home/jack/CLionProjects/demoBlock/TestChain/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
